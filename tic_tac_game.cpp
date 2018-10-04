@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 char square[10] = {'o','1','2','3','4','5','6','7','8','9'};
+cout<<"Enter Symbol for Player 1:  ";
+	cin>>sym1;
+	cout<<"Enter Symbol for Player 2:  ";
+	cin>>sym2;
+	int j=0;
 int i;
 char sym1,sym2;
 void draw()
